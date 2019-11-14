@@ -1,0 +1,22 @@
+<!-- forget tab -->
+<div id="forget" class="animation: uk-animation-slide-bottom-medium">
+  <h2 class="uk-text-bold"> Contraseña olvidada </h2>
+  <p class="uk-text-muted uk-margin-remove-top uk-margin-small-bottom">para restablecer su contraseña complete su correo electrónico</p>
+  <div>
+    <div class="uk-form-label">Email address</div>
+    <div class="uk-inline">
+      <span class="uk-form-icon"><i class="fas fa-lock icon-medium"></i></span>
+      <input class="uk-input uk-form-width-large" placeholder="name@example.com" type="text">
+    </div>
+  </div>
+  <div class="uk-margin">
+    <input class="button uk-button uk-button-success" type="submit" value="Reset password">
+  </div>
+  <span class="uk-text-small">
+      ¿No estás registrado?
+    <a [routerLink]="['/auth/register']" class="tablinks"> Crear cuenta </a>
+    o
+    <a [routerLink]="['/auth/login']" class="tablinks"> Ingresa </a>
+  </span>
+
+</div>
