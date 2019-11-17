@@ -2616,7 +2616,7 @@ select.uk-form-width-xsmall {
  */
 
 .uk-button-secondary {
-    background-color: #222;
+    background-color: #1a1a1a;
     color: #fff;
     border: 1px solid transparent;
 }
@@ -3101,7 +3101,7 @@ select.uk-form-width-xsmall {
  */
 
 .uk-section-secondary {
-    background: #222;
+    background: #1a1a1a;
 }
 
 
@@ -3128,7 +3128,7 @@ select.uk-form-width-xsmall {
  */
 
 .uk-section-grey {
-    background: #222;
+    background: #1a1a1a;
 }
 
 
@@ -3835,7 +3835,7 @@ select.uk-form-width-xsmall {
  */
 
 .uk-tile-secondary {
-    background: #222;
+    background: #1a1a1a;
 }
 
 
@@ -3865,10 +3865,11 @@ select.uk-form-width-xsmall {
     padding: 15px 30px;
 }
 
-.footer{
+.footer {
     background: #7d1515;
-    color:#ffffff;
+    color: #ffffff;
 }
+
 
 /* Desktop and bigger */
 
@@ -4025,7 +4026,7 @@ select.uk-form-width-xsmall {
  */
 
 .uk-card-secondary {
-    background: #222;
+    background: #1a1a1a;
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -4035,7 +4036,7 @@ select.uk-form-width-xsmall {
 }
 
 .uk-card-secondary.uk-card-hover:hover {
-    background-color: #222;
+    background-color: #1a1a1a;
     box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 
@@ -4307,7 +4308,7 @@ select.uk-form-width-xsmall {
 
 .uk-marker {
     padding: 5px;
-    background: #222;
+    background: #1a1a1a;
     color: #fff;
     border-radius: 500px;
 }
@@ -10245,7 +10246,7 @@ iframe.uk-cover {
 }
 
 .uk-background-secondary {
-    background-color: #222;
+    background-color: #1a1a1a;
 }
 
 .uk-background-danger {
