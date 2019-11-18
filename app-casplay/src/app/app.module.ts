@@ -9,6 +9,11 @@ import { AdminComponent } from './layout/admin/admin.component';
 import { SharedModule } from './shared/shared.module';
 import { PageModule } from './theme/page/page.module';
 
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressRouterModule } from '@ngx-progressbar/router';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +25,9 @@ import { PageModule } from './theme/page/page.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    PageModule
+    PageModule,
+    NgProgressModule,
+    NgProgressRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

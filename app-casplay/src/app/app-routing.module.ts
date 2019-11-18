@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandpageComponent } from './layout/landpage/landpage.component';
-
+import { RouterResolver } from './router.resolver';
 
 const routes: Routes = [
   { path: "", redirectTo: "home", pathMatch: "full" },
@@ -12,7 +12,8 @@ const routes: Routes = [
       {
         path: "",
         loadChildren: () =>
-          import("./theme/page/page.module").then(m => m.PageModule)
+          import("./theme/page/page.module").then(m => m.PageModule),
+        resolve: { crisis: RouterResolver }
       }
     ]
   },
@@ -21,6 +22,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [RouterResolver]
 })
 export class AppRoutingModule { }

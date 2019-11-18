@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "@ngx-progressbar/core": "^5.3.2",
+    "@ngx-progressbar/router": "^5.3.2",
     "@types/scriptjs": "0.0.2",
     "rxjs": "~6.4.0",
     "scriptjs": "^2.5.9",
