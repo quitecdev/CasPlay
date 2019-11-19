@@ -8,7 +8,13 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
+    data: {
+      title: 'Ingreso',
+      icon: 'icon-layout-sidebar-left',
+      caption: 'lorem ipsum dolor sit amet, consectetur adipisicing elit - sample page',
+      status: true
+    }
   },
   {
     path:'about',

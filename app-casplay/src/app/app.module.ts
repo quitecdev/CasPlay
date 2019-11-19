@@ -11,6 +11,9 @@ import { PageModule } from './theme/page/page.module';
 
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressRouterModule } from '@ngx-progressbar/router';
+import { BreadcrumbComponent } from './layout/component/breadcrumb/breadcrumb.component';
+import { AuthModule } from './theme/auth/auth.module';
+import { AuthComponent } from './layout/auth/auth.component';
 
 
 
@@ -19,13 +22,16 @@ import { NgProgressRouterModule } from '@ngx-progressbar/router';
     AppComponent,
     LandpageComponent,
     MainComponent,
-    AdminComponent
+    AdminComponent,
+    AuthComponent,
+    BreadcrumbComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
     PageModule,
+    AuthModule,
     NgProgressModule,
     NgProgressRouterModule
   ],
